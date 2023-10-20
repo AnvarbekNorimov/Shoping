@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import Collapse from 'react-bootstrap/Collapse';
 import Form from 'react-bootstrap/Form';
 // import { Link, NavLink } from 'react-router-dom';
 
-function Article() {
+function Article( {plus}) {
   const [open, setOpen] = useState(false);
   const [openBrand, setOpenbrand] = useState(false);
   const [openFeatures, setOpenFeatures] = useState(false);
@@ -22,11 +23,11 @@ function Article() {
       </span>
       <Collapse in={open}>
         <div className='article-btn' id="example-collapse-text">
-                <span className='Article-button'>Mobile accessory</span>
-                <span className='Article-button'>Electronics</span>
-                <span className='Article-button'>Smartphones</span>
-                <span className='Article-button'>Modern tech</span>
-                <span className='Article-button'>See all</span>
+                <span onClick={plus}   className='Article-button'>Mobile accessory</span>
+                <span className='Article-button' onClick={plus}  >Electronics</span>
+                <span className='Article-button' onClick={plus}  >Smartphones</span>
+                <span className='Article-button' onClick={plus}  >Modern tech</span>
+                <span className='Article-button' onClick={plus}  >See all</span>
         </div>
       </Collapse>
         </div>

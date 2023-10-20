@@ -1,12 +1,14 @@
+/* eslint-disable react/prop-types */
 import { IconClear, IconLeft, IconMore, IconRight, IconSert, Iconstarts } from "../assets/img/IconProject"
 import img13 from "../assets/img/iphone13.png"
-const About = () => {
+const About = ({count}) => {
+  console.log(count ,"cdadcdcdq");
   return (
     <section className="about">
       <div className="about-filter">
         <div className="about-fil">
         <span className="about-fil__title">
-          samsung
+         {count}
         </span>
         <span className="about-fil__btn">
           <IconClear/>
