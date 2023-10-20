@@ -1,0 +1,45 @@
+.header{
+    justify-content: space-between
+}
+.Header-nav{
+    gap: 46px;
+}
+.Header-Logo{
+    gap: 6px;
+}
+.Header-form__input{
+    width: 421px;
+    height: 40px;
+    border: solid#0D6EFD;
+     border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5px;
+}
+.Header-form__button{
+    padding: 8px;
+    width: 100px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #0D6EFD; 
+    font-family: sans-serif;
+    color: white;
+}
+.Header-order{
+align-items: center;
+    text-align: center;
+}
+.Header-order-text{
+   color: var(--gray-500, #8B96A5);
+   text-align: center;
+   font-feature-settings: 'clig' off, 'liga' off;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.Header-order-icon{
+    display: flex;
+    justify-content: center;
+}

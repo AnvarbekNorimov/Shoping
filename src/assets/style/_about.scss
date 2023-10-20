@@ -1,0 +1,204 @@
+.about{
+    width: 1150px;
+    padding-top: 30px;
+}
+
+.about-filter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.about-fil{
+    width:100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--primary, #0D6EFD);
+    background: var(--white, #FFF);
+    &__title{
+        color: var(--gray-600, #505050);
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* Text-base */
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    &__btn{
+        cursor: pointer;
+    }
+    &__clear{
+        color: var(--primary, #0D6EFD);
+        font-feature-settings: 'clig' off, 'liga' off;
+        cursor: pointer;
+        /* Text-base */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.About-box{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display:grid;
+    grid-template-columns: auto  auto auto;
+    gap: 20px;
+}
+.About-subcard{
+    display: flex;
+}
+.About-subcard-image{
+    margin-top: 19px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    // .......
+    border-radius: 6px;
+     border: 1px solid var(--gray-300, #E3E8EE);
+     background: var(--white, #FFF);
+
+    /* shadow-sm */
+     box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.08);
+}
+.About-card{
+    width: 295px;
+    height: 405px;
+    border-radius: 5px;
+    border: 1px solid #E3E8EE ;
+    background-color: #FFF;
+    &__img{
+        width: 100%;
+        border-radius: 5px;
+        border-bottom: 1px solid #E3E8EE;
+    }
+    &__imgage{
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+.About-title{
+    padding: 10px;
+    &__subtitle{
+        padding-top: 10px;
+        display: block;
+        color: var(--dark, #1C1C1C);
+        font-feature-settings: 'clig' off, 'liga' off;
+        /* Title-h5 */
+        font-family: Inter;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    &__check{
+        padding-left: 5px;
+        color: var(--gray-500, #8B96A5);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: strikethrough;
+    }
+}
+.About-title__text{
+    padding-top: 10px;
+    color: var(--base-color-orange, #FF9017);
+    font-feature-settings: 'clig' off, 'liga' off;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* Text-base */
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.About-title__textera{
+    padding-top: 10px;
+    display: block;
+    color: var(--base-color-gray-800, #606060);
+    font-feature-settings: 'clig' off, 'liga' off;
+    width: 215px;
+    /* Text-info */
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+}
+.About-box__shbtn{
+    width: 125px;
+    height: 40px;
+    border: 1px solid #E3E8EE;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    //text
+    color: var(--dark, #1C1C1C);
+    font-family: sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.About-box__leftbtn{
+    width: 44px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #E3E8EE;
+    background-color: #FFF;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 8px;
+}
+.About-box__rightbtn{
+    width: 44px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #E3E8EE;
+    background-color: #FFF;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 8px;
+}
+.About-box__morebt{
+    width: 50px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #fff;
+    border: 1px solid #E3E8EE;
+    padding: 8px;
+}
+.About-box__subbtn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+}

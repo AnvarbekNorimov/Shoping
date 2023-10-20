@@ -1,0 +1,30 @@
+.article{
+    display: inline;
+    width: 230px;
+    padding-top: 30px;
+}
+.article-btn{
+    width: 230px;
+}
+.btn{
+  border-top: 1px solid var(--gray-300, #E3E8EE);
+  color: var(--dark, #1C1C1C);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Title-H6 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Article-button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    border-radius: 0;
+    cursor: pointer;
+}
