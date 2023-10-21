@@ -76,12 +76,18 @@
     /* shadow-sm */
      box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.08);
 }
+.About-card:hover{
+     box-shadow: #1C1C1C 1.5px 2px 3px;
+     transform: scale(1.01);
+}
 .About-card{
     width: 295px;
     height: 405px;
+    margin-top: 55px;
     border-radius: 5px;
     border: 1px solid #E3E8EE ;
     background-color: #FFF;
+    transition: calc(1s);
     &__img{
         width: 100%;
         border-radius: 5px;
@@ -201,4 +207,5 @@
     align-items: center;
     justify-content: end;
     gap: 50px;
+    margin-bottom: 40px;
 }

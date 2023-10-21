@@ -23,11 +23,11 @@ function Article( {plus}) {
       </span>
       <Collapse in={open}>
         <div className='article-btn' id="example-collapse-text">
-                <span onClick={plus}   className='Article-button'>Mobile accessory</span>
+                <span onClick={plus}    className='Article-button'>Mobile accessory</span>
                 <span className='Article-button' onClick={plus}  >Electronics</span>
                 <span className='Article-button' onClick={plus}  >Smartphones</span>
                 <span className='Article-button' onClick={plus}  >Modern tech</span>
-                <span className='Article-button' onClick={plus}  >See all</span>
+                <span className='Article-button' onClick={()=>setOpen(!open)}  >See all</span>
         </div>
       </Collapse>
         </div>
@@ -42,27 +42,27 @@ function Article( {plus}) {
       </span>
       <Collapse in={openBrand}>
         <div className='article-btn' >
-                <span className='Article-button'>      
-               <Form.Check aria-label="option 1" />
+                <span className='Article-button' onClick={plus}>      
+               <Form.Check aria-label="option 1"/>
                Samsung
                 </span>
-                <span className='Article-button'>
-                    <Form.Check aria-label="option 1" />
-                    Apple
-                    </span>
-                <span className='Article-button'>
+    <span className="Article-button" onClick={plus}>
+      <Form.Check aria-label="option 1"  />
+      Apple
+    </span>
+                <span className='Article-button' onClick={plus}>
                     <Form.Check aria-label="option 1" />
                     Huawei
                     </span>
-                <span className='Article-button'>
+                <span className='Article-button' onClick={plus}>
                     <Form.Check aria-label="option 1" />
                     Pocco
                     </span>
-                <span className='Article-button'>
+                <span className='Article-button' onClick={plus}>
                     <Form.Check aria-label="option 1" />
                     Lenovo
                     </span>
-                    <span className='Article-button'>See all </span>
+                    <span onClick={() => setOpenbrand(!openBrand)} className='Article-button'>See all </span>
         </div>
       </Collapse>
         </div>
@@ -77,27 +77,27 @@ function Article( {plus}) {
       </span>
       <Collapse in={openFeatures}>
         <div className='article-btn' >
-                <span className='Article-button'>      
+                <span className='Article-button' onClick={plus}>      
                <Form.Check aria-label="option 1" />
                Metallic
                 </span>
-                <span className='Article-button'>
+                <span className='Article-button' onClick={plus}>
                     <Form.Check aria-label="option 1" />
                     Plastic cover
                     </span>
-                <span className='Article-button'>
+                <span className='Article-button' onClick={plus}>
                     <Form.Check aria-label="option 1" />
                     8GB Ram
                     </span>
-                <span className='Article-button'>
+                <span className='Article-button' onClick={plus}>
                     <Form.Check aria-label="option 1" />
                     Super power
                     </span>
-                <span className='Article-button'>
-                    <Form.Check aria-label="option 1" />
+                <span className='Article-button' onClick={plus}>
+                    <Form.Check aria-label="option 1"/>
                     Large Memory
                     </span>
-                    <span className='Article-button'>See all </span>
+                    <span className='Article-button' onClick={() => setOpenFeatures(!openFeatures)}>See all </span>
         </div>
       </Collapse>
         </div>

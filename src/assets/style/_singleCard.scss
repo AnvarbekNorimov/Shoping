@@ -1,0 +1,195 @@
+.Single{
+    background: var(--gray-100, #F7FAFC);
+}
+.Single-bg{
+ padding: 25px;
+}
+.Single-card{
+    margin: 0 auto;
+   padding: 25px;
+   border-radius: 6px;
+   border: 1px solid #E3E8EE;
+    display: flex;
+    width: 1180px;
+    background-color: #fff;
+}
+.Single-card__img{
+    width: 325px;
+    height: 325px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-blend-mode: multiply;
+}
+.Single-card__icon{
+    width: 48px;
+    height: 48px;
+}
+.Single-card__pngicon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 200px;
+    margin: 20px auto;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.Single-card__left{
+    padding: 10px;
+    width: 380px;
+    height: 380px;
+    margin: 0 auto;  
+}
+.Single-card__right{
+   padding: 10px;
+   width: 733px;
+   margin: 0 auto;
+}
+.Single-card__title{
+    display: flex;
+    justify-content: space-between;
+}
+.Single-card__titleleft{
+    color: var(--base-color-green, #00B517);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Text normal */
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+}
+.Single-card__titleright{
+    color: var(--base-color-blue, #0D6EFD);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Text-link */
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+}
+.Single-card__subtitle{
+    color: #1C1C1C;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Title-H4 */
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 140% */
+    letter-spacing: -0.2px;
+}
+.Single-card__fil{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Single-card__filtitle{
+    color: var(--base-color-orange, #FF9017);
+    font-feature-settings: 'clig' off, 'liga' off;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    /* Text-base */
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Single-card__filtext{
+    color: var(--base-color-gray-500, #787A80);
+    font-feature-settings: 'clig' off, 'liga' off;
+    display: flex;
+    gap: 5px;
+    /* Text-base */
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Single-card__filsubtext{
+    color: var(--base-color-gray-500, #787A80);
+    font-feature-settings: 'clig' off, 'liga' off;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    /* Text-base */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Single-card__sum{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    width: 732px;
+    gap: 100px;
+    padding: 5px;
+    border: 1px solid #FFF0DF;
+    background-color: #FFF0DF;
+}
+.Single-card__summa1{
+    color: #FA3434;
+    font-feature-settings: 'clig' off, 'liga' off;
+    display: block;
+    /* Title-h5 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Single-card__summa2{
+    color: var(--base-color-dark, #1C1C1C);
+    font-feature-settings: 'clig' off, 'liga' off;
+    display: block;
+    /* Title-h5 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Single-Card__info{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.Single-Card__infotitle{
+    color: var(--gray-500, #8B96A5);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Text-base */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Single-Card__infosubtitle{
+    color: var(--gray-600, #505050);
+    width: 200px;
+    font-feature-settings: 'clig' off, 'liga' off;    
+    /* Text-base */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.single-card__infoborder{
+    margin-top: 10px;
+    width: 733px;
+    height: 1px;
+    background-color: #E0E0E0;
+}

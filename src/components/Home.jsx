@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import About from "./About"
-import Footer from "./Footer"
 import Article from "./article"
 
 const Home = ({plus,count,handleClick}) => {
@@ -13,7 +12,6 @@ const Home = ({plus,count,handleClick}) => {
      </div>
     </div>
     <div className="container">
-      <Footer/>
     </div>
     </div>
   )
